@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 About Me
 
 🍃 Passionate web designer and developer with a creative approach, excellence oriented and eye for user experience.
 
