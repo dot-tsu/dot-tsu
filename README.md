@@ -1,6 +1,6 @@
 # 💫 About Me
 
-🍃 Passionate web designer and developer with a creative approach, excellence oriented and eye for user experience.
+🍃 Passionate web developer with a creative approach, excellence oriented and eye for user experience.
 
 🖼️ Noted for visually appealing projects and innovative solutions.
 
