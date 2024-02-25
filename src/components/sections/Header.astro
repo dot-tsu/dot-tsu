@@ -1,0 +1,60 @@
+---
+import { basics } from "@cv";
+import Mail from "@/components/icons/Mail.astro";
+import GitHub from "@/components/icons/GitHub.astro";
+import LinkedIn from "@/components/icons/LinkedIn.astro";
+import WorldMap from "@/components/icons/WorldMap.astro";
+const { name, profiles, summary, email, location } = basics;
+const { city, region } = location;
+---
+
+<header>
+  <h1 class="text-5xl pb-1 font-semibold">{name}</h1>
+  <h2 class="text-content/75 text-lg">{summary}</h2>
+  <a
+    href={`https://www.google.com.ar/maps/place/${city}+${region}/`}
+    title={`Explore ${city}, ${region} on Google Maps`}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="flex gap-1 text-content/60 [&>svg]:w-5 [&>svg]:stroke-content/50 hover:underline">
+    <WorldMap />
+    {city}, {region}
+  </a>
+
+  <ul class="flex gap-3 py-2 text-sm text-content/75">
+    {
+      email && (
+        <li class="hover:bg-content/20 border border-content/50 rounded-md transition">
+          <a
+            href={`mailto:${email}`}
+            title={`Send an email to ${name} at ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="[&>svg]:w-9 [&>svg]:p-2">
+            <Mail />
+          </a>
+        </li>
+      )
+    }
+    {
+      profiles.map(({ network, username, url }) => {
+        const ProfileIcon = {
+          LinkedIn: LinkedIn,
+          GitHub: GitHub,
+        }[network];
+        return (
+          <li class="hover:bg-content/20 border border-content/50 rounded-md transition">
+            <a
+              href={url}
+              title={`Visit ${network} profile of ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="[&>svg]:w-9 [&>svg]:p-2">
+              <ProfileIcon />
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+</header>
