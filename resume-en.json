@@ -6,13 +6,13 @@
     "email": "lucanahtsu@gmail.com",
     "phone": "(912) 555-4321",
     "url": "https://tsuramii.github.io/cv/",
-    "summary": "Tech enthusiast since age 9. Web developer & designer with a passion for unique, user-focused projects.",
+    "summary": "Tech enthusiast since age 9 and web dev passionate about user-centric projects.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Salta",
       "countryCode": "AR",
-      "region": "Salta"
+      "region": "Argentina"
     },
     "profiles": [
       {
@@ -23,7 +23,7 @@
       {
         "network": "GitHub",
         "username": "tsuramii",
-        "url": "https://github.com/tsuramii/"
+        "url": "https://www.github.com/tsuramii/"
       }
     ]
   },
@@ -276,4 +276,3 @@
     }
   ]
 }
-
