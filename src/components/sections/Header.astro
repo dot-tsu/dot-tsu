@@ -9,19 +9,19 @@ const { city, region } = location;
 ---
 
 <header>
-  <h1 class="text-5xl pb-1 font-semibold">{name}</h1>
-  <h2 class="text-content/75 text-lg">{summary}</h2>
+  <h1 class="font-semibold text-2xl">{name}</h1>
+  <h2 class="text-content/75 py-1">{summary}</h2>
   <a
     href={`https://www.google.com.ar/maps/place/${city}+${region}/`}
     title={`Explore ${city}, ${region} on Google Maps`}
     target="_blank"
     rel="noopener noreferrer"
-    class="flex gap-1 text-content/60 [&>svg]:w-5 [&>svg]:stroke-content/50 hover:underline">
+    class="items-center flex gap-1 text-content/60 [&>svg]:w-4 [&>svg]:stroke-content/50 hover:underline">
     <WorldMap />
     {city}, {region}
   </a>
 
-  <ul class="flex gap-3 py-2 text-sm text-content/75">
+  <ul class="flex gap-2 py-2 text-content/75">
     {
       email && (
         <li class="hover:bg-content/20 border border-content/50 rounded-md transition">
@@ -30,7 +30,7 @@ const { city, region } = location;
             title={`Send an email to ${name} at ${email}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="[&>svg]:w-9 [&>svg]:p-2">
+            class="[&>svg]:w-6 [&>svg]:p-1">
             <Mail />
           </a>
         </li>
@@ -49,7 +49,7 @@ const { city, region } = location;
               title={`Visit ${network} profile of ${name}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="[&>svg]:w-9 [&>svg]:p-2">
+              class="[&>svg]:w-6 [&>svg]:p-1">
               <ProfileIcon />
             </a>
           </li>
