@@ -4,13 +4,13 @@ import Mail from "@/components/icons/Mail.astro";
 import GitHub from "@/components/icons/GitHub.astro";
 import LinkedIn from "@/components/icons/LinkedIn.astro";
 import WorldMap from "@/components/icons/WorldMap.astro";
-const { name, profiles, summary, email, location } = basics;
+const { name, profiles, label, email, location } = basics;
 const { city, region } = location;
 ---
 
 <header>
   <h1 class="font-semibold text-2xl">{name}</h1>
-  <h2 class="text-content/75 py-1">{summary}</h2>
+  <h2 class="text-content/75 py-1">{label}</h2>
   <a
     href={`https://www.google.com.ar/maps/place/${city}+${region}/`}
     title={`Explore ${city}, ${region} on Google Maps`}
