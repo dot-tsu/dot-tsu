@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "@/components/sections/Header.astro";
 import About from "@/components/sections/About.astro";
-import Experience from "@/components/sections/Experience.astro"
+import Experience from "@/components/sections/Experience.astro";
 import { basics } from "@cv";
 const { name } = basics;
 ---
@@ -10,11 +10,11 @@ const { name } = basics;
 <Layout title={`${name}'s Online CV`}>
   <Header />
   <main>
-    <!-- <About /> -->
-<Experience /> 
-	<!-- <Projects /> -->
-	<!-- <Skills /> -->
-	<!-- <Education />  -->
+    <About />
+    <Experience />
+    <!-- <Projects /> -->
+    <!-- <Skills /> -->
+    <!-- <Education />  -->
   </main>
 </Layout>
 
