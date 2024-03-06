@@ -1,0 +1,42 @@
+---
+import Section from "@/components/Section.astro";
+import GitHub from "@/components/icons/GitHub.astro";
+
+import { projects } from "@cv";
+---
+
+<Section title="Projects">
+  <ul class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-3">
+    {
+      projects.map(({github, name, description, url, highlights}) => (
+        <li class="rounded-lg border-2 border-content/20 p-2 flex flex-col relative">
+          {github && (
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="absolute top-2 right-2 hover:underline [&>svg]:w-5  m-1"
+              title={`See source code of ${name} project`}>
+              <GitHub />
+            </a>
+          )}
+          <div class="flex-1">
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-bold text-base hover:underline">
+              {name}
+            </a>
+            <p class="my-2 text-sm">{description}</p>
+          </div>
+          <ul class="flex flex-wrap gap-1">
+            {highlights.map((highlight) => (
+              <li class="bg-content/10 p-1 rounded">{highlight}</li>
+            ))}
+          </ul>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
