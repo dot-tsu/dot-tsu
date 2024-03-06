@@ -1,0 +1,38 @@
+---
+import Section from "@/components/Section.astro";
+import { education } from "@cv";
+---
+
+<Section title="Education">
+  <ul class="grid grid-cols-1 gap-4">
+    {
+      education.map(
+        ({ institution, area, studyType, startDate, endDate, url }) => (
+          <li class="flex flex-col gap-1 py-2 rounded-lg">
+            <div class="flex justify-between">
+              <span class="font-bold">
+                {url ? (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:underline text-base">
+                    {institution}
+                  </a>
+                ) : (
+                  institution
+                )}
+              </span>
+              <span>
+                {startDate} / {endDate || "Present"}
+              </span>
+            </div>
+            <p>
+              {studyType}, {area}
+            </p>
+          </li>
+        )
+      )
+    }
+  </ul>
+</Section>
