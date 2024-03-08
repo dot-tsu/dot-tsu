@@ -3,6 +3,10 @@ import Layout from "../layouts/Layout.astro";
 import Header from "@/components/sections/Header.astro";
 import About from "@/components/sections/About.astro";
 import Experience from "@/components/sections/Experience.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Education from "@/components/sections/Education.astro";
+
 import { basics } from "@cv";
 const { name } = basics;
 ---
@@ -12,9 +16,9 @@ const { name } = basics;
   <main>
     <About />
     <Experience />
-    <!-- <Projects /> -->
-    <!-- <Skills /> -->
-    <!-- <Education />  -->
+    <Skills />
+    <Projects />
+    <Education /> 
   </main>
 </Layout>
 
