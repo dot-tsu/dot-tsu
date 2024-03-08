@@ -6,4 +6,4 @@
 
 🧑🏻‍💻 Committed to work-life balance, seeking excellence and empathy in every step of the process.
 
-🎆 For now this is my portfolio, each repository has its respective link to its deploy.
+🎆 My online CV: tsuramii.github.io/tsuramii/
