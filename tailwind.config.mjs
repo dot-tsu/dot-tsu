@@ -11,6 +11,7 @@ export default {
     },
     fontFamily: {
       sans: ["Miriam Libre", "sans-serif"],
+      print: ["Arial", "sans-serif"],
     },
   },
   plugins: [],
