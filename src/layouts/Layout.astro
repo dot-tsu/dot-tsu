@@ -1,6 +1,6 @@
 ---
 import { basics } from "@cv";
-import '@fontsource/miriam-libre';
+import "@fontsource/miriam-libre";
 interface Props {
   title: string;
 }
@@ -18,12 +18,12 @@ const { image, summary } = basics;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preload" as="image" href={image} />
     <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="build.css" />
     <title>{title}</title>
   </head>
-  <body class="text-xs container max-w-4xl mx-auto p-5 lg:p-8 print:p-0 bg-background text-content text-pretty">
+  <body
+    class="text-xs container max-w-4xl mx-auto p-5 lg:p-8 print:p-0 bg-background text-content text-pretty">
     <slot />
   </body>
 </html>
-<style is:global>
-
-</style>
+<style is:global></style>
