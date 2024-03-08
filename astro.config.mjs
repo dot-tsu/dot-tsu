@@ -5,6 +5,6 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   // integrations: [tailwind()],
-  // site: "https://tsuramii.github.io",
-  // base: "/tsuramii",
+  site: "https://tsuramii.github.io",
+  base: "/tsuramii",
 });
