@@ -4,7 +4,7 @@ import { work } from "@cv";
 ---
 
 <Section title="Experience">
-  <ul>
+  <ul class="text-sm">
     {
       work.map(
         ({ name, position, url, startDate, endDate, summary, highlights }) => (
@@ -16,7 +16,7 @@ import { work } from "@cv";
                   title={`Visit ${name} webpage`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="hover:underline text-base font-semibold">
+                  class="hover:underline text-lg font-semibold">
                   <h3>{name}</h3>
                 </a>
               ) : (
