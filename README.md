@@ -1,9 +1,5 @@
 <h1 align="left">👋 Hi! I'm Tsu</h1>
 
-###
-
-<br clear="both">
-
 <h2 align="left">💫 About Me</h2>
 
 ###
