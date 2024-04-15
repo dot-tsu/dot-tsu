@@ -213,7 +213,7 @@
     {
       "name": "Askbot",
       "isActive": true,
-      "description": "Revolutionary chatbot platform amplifying user engagement and streamlining interactions.",
+      "description": "A SaaS platform that provides businesses with chatbot and AI solutions.",
       "highlights": ["Lead Frontend Developer", "React", "Tailwind"],
       "url": "https://askbot.site/"
     },
