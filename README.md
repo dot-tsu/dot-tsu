@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">🍃 Passionate full-stack dev and designer with a creative approach, excellence oriented and eye for user <br><br>🧩 With boundless enthusiasm for learning and growth, I bring creativity, dedication, and a love for problem-solving to every project.<br><br>☕ Also a musician, nerd and a caffeine addict.</p>
+<p align="left">☕ Software dev, musician, nerd and a caffeine addict.</p>
 
 <br clear="both">
 
