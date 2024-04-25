@@ -1,1 +1,1 @@
-☕ Software dev, musician, nerd and a caffeine addict.
+☕ Software dev, musician and a caffeine addict.
