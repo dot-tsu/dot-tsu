@@ -1,2 +1,1 @@
-
-![One](https://github.com/user-attachments/assets/c90d1105-f49d-4875-bd26-2ba303ca75d3)
+![GitHub banner](https://github.com/user-attachments/assets/f6c4d4ca-f3a2-4ad4-992a-aa27fdd85ba4)
