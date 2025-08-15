@@ -44,6 +44,7 @@ Right now I'm working on [Nubel](https://nubel.ca/), a platform to replace resum
 
 ### ☁️ Cloud & Providers  
 <p>
+  <img src="https://img.shields.io/badge/Firebase-F38020?style=for-the-badge&logo=firebase&logoColor=white" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github&logoColor=white" />
