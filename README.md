@@ -1,4 +1,4 @@
-# 👋 Hey, I'm tsu (Luca)
+# 👋 Hey, I'm Luca
 
 Self-taught developer from Argentina. I build fast, learn by doing, and care about clean, simple solutions.
 
