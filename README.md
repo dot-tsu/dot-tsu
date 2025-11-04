@@ -2,8 +2,6 @@
 
 Self-taught developer from Argentina. I build fast, learn by doing, and care about clean, simple solutions.
 
-Right now I'm working on [Nubel](https://nubel.ca/), a platform to replace resumes.
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=tsudev&style=flat&color=blue" alt="Profile Views"/>
 </p>
