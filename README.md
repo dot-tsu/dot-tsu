@@ -43,4 +43,3 @@ Self-taught developer from Argentina. I build fast, learn by doing, and care abo
 ## 📫 Contact
 
 Open to projects, ideas, or just saying hi.  
-> "Mañana es mejor." — *Luis A. Spinetta*
