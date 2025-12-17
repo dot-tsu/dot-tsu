@@ -1,12 +1,10 @@
-# 👋 Hey, I'm Luca
+# 👋 Hey, I’m Luca
 
-Self-taught developer from Argentina. I build fast, learn by doing, and care about clean, simple solutions.
+I’m a self-taught developer from Argentina.
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tsudev&style=flat&color=blue" alt="Profile Views"/>
-</p>
-<p align="center">
-<img src="https://wakatime.com/badge/user/3270ac67-49ac-407b-88dc-e55d4b1c0000.svg" alt="Total time coded since Jun 18 2024" />
-</p>
+I enjoy building things, learning as I go, and keeping solutions simple and readable. Most of what I learn comes from shipping, breaking stuff, and fixing it again. I care about clean code, but I care more about things working in the real world.
 
-Open to projects, ideas, or just saying hi.  
+![Profile Views](https://komarev.com/ghpvc/?username=tsudev&style=flat&color=blue)
+![WakaTime](https://wakatime.com/badge/user/3270ac67-49ac-407b-88dc-e55d4b1c0000.svg)
+
+Open to projects, ideas, or just saying hi.
