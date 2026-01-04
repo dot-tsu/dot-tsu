@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Luca
+# Hey, I'm Luca
 
 I'm a self-taught developer from Argentina.
 
